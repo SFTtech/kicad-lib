@@ -1,0 +1,46 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DIO5661
+D In SOT23-6 package
+$ENDCMP
+#
+$CMP INA240A*PW
+D Current-Sense amplifier, TSSOP-8
+F datasheets/ina240.pdf
+$ENDCMP
+#
+$CMP LM4040DYM3-x-TR
+D Voltage Reference
+$ENDCMP
+#
+$CMP RK043FN02H-CT-LCD
+D LCD FPC connector
+$ENDCMP
+#
+$CMP RK043FN02H-CT-Touch
+D RK043FN02H-CT Touch FPC connector
+$ENDCMP
+#
+$CMP SFT_DEBUG_CONNECTOR-DUT
+D Debug connector to be used on the DUT
+$ENDCMP
+#
+$CMP SFT_DEBUG_CONNECTOR-Debugger
+D Debug connector to be used on the DUT
+$ENDCMP
+#
+$CMP STM32F373C*T
+D Cortex M4 MCU+FPU, 4 ADCs (16-bit Sig.Delta), 3 DACs, 2 comp., 2.0-3.6V
+F datasheets/stm32f373cc.pdf
+$ENDCMP
+#
+$CMP TLV760
+D Linear regulator, SOT-23
+$ENDCMP
+#
+$CMP TS339
+D Quad comparator
+K quad opamp
+$ENDCMP
+#
+#End Doc Library
