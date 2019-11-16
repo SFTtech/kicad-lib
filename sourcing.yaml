@@ -1,0 +1,115 @@
+distributors:
+    LCSC: 'https://lcsc.com/pre_search/link?type=lcsc&&value=%s'
+    Digikey: 'https://www.digikey.de/products/en?keywords=%s'
+    AliExpress: 'https://www.aliexpress.com/item/%s.html'
+
+
+products:
+    # MPN:
+    #   distributorA: [ordering-number, approx-price-per-unit]
+    #   distributorB: [ordering-number, approx-price-per-unit]
+
+
+    # mechanical
+    Amphenol 10118194-0001LF:
+        LCSC: [C132563, 0.3419]
+
+    BoomPrecision C5661:
+        LCSC: [C5661, 0.07]
+
+    BoomPrecision C11214:
+        LCSC: [C11214, 0.0541]
+
+    generic header-2.54mm:
+        LCSC: [C2337, 0.02]
+
+    generic header-2.54mm-x2:
+        LCSC: [C2333, 0.04]
+
+    PANASONIC EVQPAE05R:
+        LCSC: [C128536, 0.0452]
+
+    generic 4mm-banana-jack:
+        AliExpress: ["32921141297", 0.0850]
+
+
+    # generic passives
+    generic R0603:
+        LCSC: [generic, 0.001]
+        Digikey: [generic, 0.01]
+
+    generic C0603:
+        LCSC: [generic, 0.0026]
+        Digikey: [generic, 0.02]
+
+    generic C0603-100nF:
+        LCSC: [C42998, 0.0031]
+
+    generic C0603-4.7uF-6.3V:
+        LCSC: [C154959, 0.0045]
+
+    YAGEO PE2010FKE7W0R05Z:
+        LCSC: [C309529, 0.1303]
+
+    muRata BLM18KG300TN1:
+        LCSC: [C88982, 0.0118]
+
+    ZheJiang B08000J065:
+        LCSC: [C258976, 0.0504]
+
+
+    # diodes
+    generic 1N4148WS:
+        LCSC: [C99332, 0.0054]
+
+    generic ZMM5230B:
+        LCSC: [C118687, 0.0156]
+
+    generic ZMM5248B:
+        LCSC: [C118700, 0.0156]
+
+    BourneSemicon 0603ESDA-18N:
+        LCSC: [C316055, 0.0133]
+
+    BourneSemicon 0603ESDA-24N:
+        LCSC: [C316056, 0.0117]
+
+    Wuerth 150080GS75000:
+        Digikey: [732-4983-1-ND, 0.20]
+
+    Wuerth 150080RS75000:
+        Digikey: [732-4984-1-ND, 0.21]
+
+    Wuerth 150080YS75000:
+        Digikey: [732-4987-1-ND, 0.21]
+
+
+    # transistors
+    DiodesInc DMG1012UW-7:
+        LCSC: [C156390, 0.0431]
+
+
+    # ICs
+    OnSemi NCP1117ST33T3G:
+        LCSC: [C26537, 0.1465]
+
+    SGMicro SGM3204YN6G:
+        LCSC: [C194031, 0.3256]
+
+    ST STM32F103CBT6:
+        LCSC: [C8304, 2.1871]
+
+    ST TS339IPT:
+        LCSC: [C283331, 0.5359]
+
+    ST USBLC6-4SC6:
+        LCSC: [C111212, 0.0935]
+
+    TI INA240A1PW:
+        LCSC: [C93965, 1.4259]
+
+    TI LM337LMX:
+        LCSC: [C7947, 0.5433]
+
+    TI SN74LVC2T45DCTR:
+        LCSC: [C22672, 0.4817]
