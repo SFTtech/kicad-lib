@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP -1V2
+D Power symbol creates a global label with name "-1V2"
+K power-flag
+$ENDCMP
+#
+$CMP -1V5
+D Power symbol creates a global label with name "-1V5"
+K power-flag
+$ENDCMP
+#
 $CMP DCF1-Pollin
 D DCF-Empfangsmodul DCF1
 K dcf77
@@ -37,12 +47,22 @@ D Debug connector to be used on the DUT
 $ENDCMP
 #
 $CMP SFT_DEBUG_CONNECTOR-Debugger
-D Debug connector to be used on the DUT
+D Debug connector to be used on the Debugger
+$ENDCMP
+#
+$CMP SGM3204
+D Unregulated 200mA Charge Pump Voltage Inverter
+K charge pump dc/dc negative
+F https://datasheet.lcsc.com/szlcsc/SG-Micro-SGM3204YN6G-TR_C194031.pdf
 $ENDCMP
 #
 $CMP STM32F373C*T
 D Cortex M4 MCU+FPU, 4 ADCs (16-bit Sig.Delta), 3 DACs, 2 comp., 2.0-3.6V
 F datasheets/stm32f373cc.pdf
+$ENDCMP
+#
+$CMP TC2030-ARM-SWD
+D Debug connector to be used on the Debugger
 $ENDCMP
 #
 $CMP TLV760
@@ -52,6 +72,12 @@ $ENDCMP
 $CMP TS339
 D Quad comparator
 K quad opamp
+$ENDCMP
+#
+$CMP USBLC6-4SC6
+D Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning
+K ESD Protection diodes  transient suppressor
+F http://www.st.com/resource/en/datasheet/usblc6-4.pdf
 $ENDCMP
 #
 #End Doc Library
