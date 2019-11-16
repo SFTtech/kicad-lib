@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DCF1-Pollin
+D DCF-Empfangsmodul DCF1
+K dcf77
+F https://www.pollin.de/productdownloads/D810054B.PDF
+$ENDCMP
+#
 $CMP DIO5661
 D In SOT23-6 package
 $ENDCMP
@@ -19,6 +25,11 @@ $ENDCMP
 #
 $CMP RK043FN02H-CT-Touch
 D RK043FN02H-CT Touch FPC connector
+$ENDCMP
+#
+$CMP SFTPOWERv1
+D SFT 5V power converter v1
+K sft, power
 $ENDCMP
 #
 $CMP SFT_DEBUG_CONNECTOR-DUT
