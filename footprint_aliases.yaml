@@ -22,4 +22,4 @@ Package_TO_SOT_SMD:SOT-223-3_TabPin2:                       "SOT-223-3"
 Package_SO:SOIC-8_3.9x4.9mm_P1.27mm:                        "SOIC-8"
 Crystal:Crystal_HC49-U_Vertical:                            "HC-49U"
 Diode_SMD:D_SOD-323:                                        "SOD-323"
-
+sft:OLED_128x64_096in_IZOKEE:                               "Module 2.54mm 1x4"

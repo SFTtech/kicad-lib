@@ -113,3 +113,7 @@ products:
 
     TI SN74LVC2T45DCTR:
         LCSC: [C22672, 0.4817]
+
+    # modules
+    generic I2C-OLED-128x64:
+        AliExpress: [32896971385, 1.81]
