@@ -17,12 +17,35 @@ F https://www.pollin.de/productdownloads/D810054B.PDF
 $ENDCMP
 #
 $CMP DIO5661
-D In SOT23-6 package
+D LED String Backlight Driver
+$ENDCMP
+#
+$CMP DRV8825
+D Stepper Motor Driver with Microstepping
+F https://www.ti.com/lit/gpn/drv8825
+$ENDCMP
+#
+$CMP ESP32-WROVER
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, 32-bit, 2.3-3.6V, onboard antenna, SMD
+K RF Radio ESP ESP32 Espressif onboard PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf
 $ENDCMP
 #
 $CMP INA240A*PW
 D Current-Sense amplifier, TSSOP-8
 F datasheets/ina240.pdf
+$ENDCMP
+#
+$CMP JAE_USB_C_DX07S016JA
+D USB 2.0-only Type-C Receptacle connector
+K usb universal serial bus type-C USB2.0
+F https://www.jae.com/direct/topics/topics_file_download/?topics_id=91780&ext_no=06&index=0&_lang=en&v=2020041313384666992409
+$ENDCMP
+#
+$CMP K1-1504SA-03
+D 5-way push button joystick
+K joystick button switch mechanical 5-way
+F https://datasheet.lcsc.com/szlcsc/1809211419_Korean-Hroparts-Elec-K1-1504SA-03_C145913.pdf
 $ENDCMP
 #
 $CMP LM4040DYM3-x-TR
