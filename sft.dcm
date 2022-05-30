@@ -92,6 +92,12 @@ $CMP TLV760
 D Linear regulator, SOT-23
 $ENDCMP
 #
+$CMP TLV8811
+D Precision Nanopower Op Amp
+K single opamp
+F https://www.ti.com/lit/ds/symlink/tlv8812.pdf
+$ENDCMP
+#
 $CMP TS339
 D Quad comparator
 K quad opamp
