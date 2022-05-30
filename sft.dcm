@@ -52,12 +52,22 @@ $CMP LM4040DYM3-x-TR
 D Voltage Reference
 $ENDCMP
 #
+$CMP OLED_I2C_128x64
+F https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+$ENDCMP
+#
 $CMP RK043FN02H-CT-LCD
 D LCD FPC connector
 $ENDCMP
 #
 $CMP RK043FN02H-CT-Touch
 D RK043FN02H-CT Touch FPC connector
+$ENDCMP
+#
+$CMP Raspberry_Pi_Zero_W
+D expansion header for Raspberry Pi Zero
+K raspberrypi gpio
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_ZeroW_1p1_reduced.pdf
 $ENDCMP
 #
 $CMP SFTPOWERv1
@@ -90,6 +100,7 @@ $ENDCMP
 #
 $CMP TLV760
 D Linear regulator, SOT-23
+F http://www.ti.com/lit/ds/symlink/tlv760.pdf
 $ENDCMP
 #
 $CMP TLV8811
